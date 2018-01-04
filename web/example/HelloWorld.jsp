@@ -28,6 +28,7 @@
 
             </li>
         </ul>
+                <s:a href="example/IfElseTag.jsp">Example 1 : If Else Tag Example</s:a>
     </body>
 </html>
 
