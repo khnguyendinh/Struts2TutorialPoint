@@ -17,18 +17,18 @@
                     <s:param name="request_locale">en</s:param>
                 </s:url>
                 <s:a href="%{url}">English</s:a>
-            </li>
+                </li>
 
-            <li>
+                <li>
                 <s:url id="url" action="HelloWorld">
                     <s:param name="request_locale">es</s:param>
                 </s:url>
 
                 <s:a href="%{url}">Espanol</s:a>
 
-            </li>
-        </ul>
-                <s:a href="example/IfElseTag.jsp">Example 1 : If Else Tag Example</s:a>
+                </li>
+            </ul>
+        <s:a href="example/IfElseTag.jsp">Example 1 : If Else Tag Example</s:a>
     </body>
 </html>
 
