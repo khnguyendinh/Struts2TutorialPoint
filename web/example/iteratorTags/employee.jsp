@@ -28,7 +28,22 @@
                     <s:property value="department"/><br/>
                 </s:iterator>
             </s:sort>
-            
+            <br/><br/>
+            <b>Subset tag - Employees subset from index 1 to 2</b><br/><br/>
+
+            <s:subset source="employees" start="1" count="2">
+                <s:iterator>
+                    <s:property value="name"/>,
+                    <s:property value="department"/><br/>
+                </s:iterator>
+            </s:subset>
+            <b>Subset tag - Employees working in Recruiment Department</b><br/><br/>
+            <s:subset decider="recruitmentDecider" source="employees">
+                <s:iterator>
+                    <s:property value="name"/>,
+                    <s:property value="department"/><br/>
+                </s:iterator>
+            </s:subset> 
         </s:bean>
     </body>
 </html>
