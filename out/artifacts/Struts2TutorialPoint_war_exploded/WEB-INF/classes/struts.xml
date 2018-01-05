@@ -11,10 +11,5 @@
          method = "execute">
          <result name = "success">/example/iteratorTags/employee.jsp</result>
       </action>
-        <action name = "merger"
-                class = "models.Employee"
-                method = "executeMerger">
-            <result name = "success">/example/mergerTags/megerTagDemo.jsp</result>
-        </action>
     </package>
 </struts>

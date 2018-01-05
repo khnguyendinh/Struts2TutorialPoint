@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="CopyLibs">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/CopyLibs" />
+      <root url="file://$PROJECT_DIR$/lib/hamcrest" />
+      <root url="file://$PROJECT_DIR$/lib/javaee-endorsed-api-7.0" />
+      <root url="file://$PROJECT_DIR$/lib/jstl" />
+      <root url="file://$PROJECT_DIR$/lib/junit_4" />
+      <root url="file://$PROJECT_DIR$/lib/struts2lib-2-3-15" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/junit_4" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib/CopyLibs" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/hamcrest" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/javaee-endorsed-api-7.0" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/junit_4" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/struts2lib-2-3-15" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/junit_4" recursive="false" type="SOURCES" />
+  </library>
+</component>

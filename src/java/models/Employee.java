@@ -39,6 +39,18 @@ public class Employee {
       contractors.add(new Employee("Vanessa","Network"));
       return "success";
    }
+   public String executeMerger() {
+      employees = new ArrayList();
+      employees.add(new Employee("George","Recruitment"));
+      employees.add(new Employee("Danielle","Accounts"));
+      employees.add(new Employee("Melissa","Recruitment"));
+      employees.add(new Employee("Rose","Accounts"));
+
+      contractors = new ArrayList();
+      contractors.add(new Employee("Mindy","Database"));
+      contractors.add(new Employee("Vanessa","Network"));
+      return "success";
+   }
 
    public Decider getRecruitmentDecider() {
       return new Decider() {

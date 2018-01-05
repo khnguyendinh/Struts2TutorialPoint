@@ -29,8 +29,7 @@
                 </li>
             </ul>
         <s:a href="example/IfElseTag.jsp">Example 1 : If Else Tag Example</s:a><br><br>
-        <s:a action="employee">Example 2 : Iterator Tags1 Example</s:a><br><br>
-        <s:a action="merger">Example 3 : Merge TAG</s:a> <br>
+        <s:a action="employee">Example 2 : Iterator Tags Example</s:a>
     </body>
 </html>
 

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Struts2TutorialPoint:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Struts2TutorialPoint_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Struts2TutorialPoint/web/Web2" />
+      <element id="javaee-facet-resources" facet="Struts2TutorialPoint/web/Web" />
+    </root>
+  </artifact>
+</component>
