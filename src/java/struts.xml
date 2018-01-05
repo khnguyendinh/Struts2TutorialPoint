@@ -21,10 +21,26 @@
                 method = "executeAppend">
             <result name = "success">/example/apendTags/appendTagDemo.jsp</result>
         </action>
-         <action name = "generator"
+        <action name = "generator"
+                 class = "models.Employee"
+                 method = "executeGenerator">
+            <result name = "success">/example/generatorTags/genratorTagDemo.jsp</result>
+        </action>
+        <action name = "action"
                 class = "models.Employee"
                 method = "executeGenerator">
             <result name = "success">/example/generatorTags/genratorTagDemo.jsp</result>
+        </action>
+        <action name = "helloAction" 
+                 class = "controller.actionTag.HelloWorldAction" 
+                 method = "execute">
+            <result name = "success">/example/ActionTag/actionDemo.jsp</result>
+        </action>
+      
+        <action name = "employeeAction" 
+                class = "controller.actionTag.Employee" 
+                method = "execute">
+            <result name = "success">/example/ActionTag/employees.jsp</result>
         </action>
     </package>
 </struts>

@@ -33,6 +33,7 @@
         <s:a action="merger">Example 3 : Merge TAG</s:a> <br><br>
         <s:a action="append">Example 4 : Append TAG</s:a> <br><br>
         <s:a action="generator">Example 5 : Generator TAG</s:a> <br><br>
+        <s:a action="employeeAction">Example 6 : Action TAG</s:a> <br><br>
     </body>
 </html>
 
