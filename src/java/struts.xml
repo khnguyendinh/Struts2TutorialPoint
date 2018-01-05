@@ -5,6 +5,11 @@
 <struts>
     <include file="example.xml"/>
     <!-- Configuration for the default package. -->
-    <package name="default" extends="struts-default">
+    <package name="models" extends="struts-default">
+        <action name = "employee" 
+         class = "models.Employee"
+         method = "execute">
+         <result name = "success">example/iteratorTags/employee.jsp</result>
+      </action>
     </package>
 </struts>
