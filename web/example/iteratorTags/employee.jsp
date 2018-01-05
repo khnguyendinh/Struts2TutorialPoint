@@ -19,5 +19,16 @@
             <s:property value="department"/><br>
         </s:iterator>
         <br/><br/>
+        <b>Employees sorted by Department</b>
+        <br/>
+        <s:bean name="models.DepartmentComparator" var="deptComparator">
+            <s:sort comparator="deptComparator" source="employees">
+                <s:iterator>
+                    <s:property value="name"/>,
+                    <s:property value="department"/><br/>
+                </s:iterator>
+            </s:sort>
+            
+        </s:bean>
     </body>
 </html>
