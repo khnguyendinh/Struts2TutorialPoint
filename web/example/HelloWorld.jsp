@@ -34,6 +34,16 @@
         <s:a action="append">Example 4 : Append TAG</s:a> <br><br>
         <s:a action="generator">Example 5 : Generator TAG</s:a> <br><br>
         <s:a action="employeeAction">Example 6 : Action TAG</s:a> <br><br>
+        <s:a action="includeAction">Example 7 : Include TAG</s:a> <br><br>
+        <s:a action="beanAction">Example 8 : Bean TAG</s:a> <br><br>
+        <s:a action="dateAction">Example 9 : Date TAG</s:a> <br><br>
+        <s:a action="paramAction">Example 10 : Param TAG</s:a> <br><br>
+        <s:a action="propertyAction">Example 11 : Property TAG</s:a> <br><br>
+        <s:a action="pushAction">Example 12 : Push TAG</s:a> <br><br>
+        <s:a action="setAction">Example 13 : Set TAG</s:a> <br><br>
+        <s:a action="textAction">Example 14 : Text TAG</s:a> <br><br>
+        <s:a action="urlAction">Example 15 : Url TAG</s:a> <br><br>
+        <s:a action="includeAction">Example 16 : Url TAG</s:a> <br><br>
     </body>
 </html>
 

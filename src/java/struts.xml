@@ -42,5 +42,50 @@
                 method = "execute">
             <result name = "success">/example/ActionTag/employees.jsp</result>
         </action>
+        <action name = "includeAction" 
+                class = "controller.IncludeTag.IncludeAction" 
+                method = "execute">
+            <result name = "success">/example/IncludeTag/IncludePage.jsp</result>
+        </action>
+        <action name = "beanAction" 
+                class = "controller.beanTag.BeanAction" 
+                method = "execute">
+            <result name = "success">/example/beanTag/BeanPage.jsp</result>
+        </action>
+        <action name = "dateAction" 
+                class = "controller.dateTag.DateAction" 
+                method = "execute">
+            <result name = "success">/example/DateTag/DatePage.jsp</result>
+        </action>
+        <action name = "paramAction" 
+                class = "controller.paramTag.ParamAction" 
+                method = "execute">
+            <result name = "success">/example/ParamTag/ParamPage.jsp</result>
+        </action>
+        <action name = "propertyAction" 
+                class = "controller.propertyTag.PropertyAction" 
+                method = "execute">
+            <result name = "success">/example/PropertyTag/PropertyPage.jsp</result>
+        </action>
+        <action name = "pushAction" 
+                class = "controller.pushTag.PushAction" 
+                method = "execute">
+            <result name = "success">/example/PushTag/PushPage.jsp</result>
+        </action>
+        <action name = "setAction" 
+                class = "controller.setTag.SetAction" 
+                method = "execute">
+            <result name = "success">/example/SetTag/SetPage.jsp</result>
+        </action>
+        <action name = "textAction" 
+                class = "controller.textTag.TextAction" 
+                method = "execute">
+            <result name = "success">/example/TextTag/TextPage.jsp</result>
+        </action>
+        <action name = "urlAction" 
+                class = "controller.urlTag.UrlAction" 
+                method = "execute">
+            <result name = "success">/example/UrlTag/UrlPage.jsp</result>
+        </action>
     </package>
 </struts>
