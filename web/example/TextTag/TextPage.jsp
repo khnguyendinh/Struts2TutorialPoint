@@ -12,6 +12,12 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <p>Example Text Page</p>
+        <s:i18n name = "HelloWorldAction">
+         <s:text name = "name.success"/><br>
+         <s:text name = "name.xyz">Message doesn't exists</s:text><br>
+         <s:text name = "name.msg.param">
+            <s:param >ZARA</s:param>
+         </s:text>
+      </s:i18n>
     </body>
 </html>

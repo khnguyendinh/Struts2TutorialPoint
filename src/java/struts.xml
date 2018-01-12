@@ -4,8 +4,11 @@
 
 <struts>
     <include file="example.xml"/>
+    <constant name = "struts.devMode" value = "true" />
+    <constant name = "struts.custom.i18n.resources" value = "ApplicationResources"/>
     <!-- Configuration for the default package. -->
     <package name="models" extends="struts-default">
+        
         <action name = "employee" 
                 class = "models.Employee"
                 method = "execute">
@@ -22,8 +25,8 @@
             <result name = "success">/example/apendTags/appendTagDemo.jsp</result>
         </action>
         <action name = "generator"
-                 class = "models.Employee"
-                 method = "executeGenerator">
+                class = "models.Employee"
+                method = "executeGenerator">
             <result name = "success">/example/generatorTags/genratorTagDemo.jsp</result>
         </action>
         <action name = "action"
@@ -32,8 +35,8 @@
             <result name = "success">/example/generatorTags/genratorTagDemo.jsp</result>
         </action>
         <action name = "helloAction" 
-                 class = "controller.actionTag.HelloWorldAction" 
-                 method = "execute">
+                class = "controller.actionTag.HelloWorldAction" 
+                method = "execute">
             <result name = "success">/example/ActionTag/actionDemo.jsp</result>
         </action>
       
