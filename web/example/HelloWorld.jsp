@@ -43,7 +43,8 @@
         <s:a action="setAction">Example 13 : Set TAG</s:a> <br><br>
         <s:a action="textAction">Example 14 : Text TAG</s:a> <br><br>
         <s:a action="urlAction">Example 15 : Url TAG</s:a> <br><br>
-        <s:a action="includeAction">Example 16 : Url TAG</s:a> <br><br>
+        <s:a action="uiAction">Example 16 : UI TAG</s:a> <br><br>
+        <s:a action="GroupUIAction">Example 17 : Group UI TAG</s:a> <br><br>
     </body>
 </html>
 

@@ -90,5 +90,16 @@
                 method = "execute">
             <result name = "success">/example/UrlTag/UrlPage.jsp</result>
         </action>
+        <action name = "uiAction" 
+                class = "controller.UITag.UITagActionSupport" 
+                method = "execute">
+            <result name = "success">/example/UITag/UITagPage.jsp</result>
+        </action>
+        <action name = "GroupUIAction" 
+                class = "controller.GroupUITag.GroupUITagAction" 
+                method = "execute">
+            <result name = "success">/example/groupUITag/GroupUITagPage.jsp</result>
+        </action>
+        
     </package>
 </struts>
