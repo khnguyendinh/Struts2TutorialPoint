@@ -3,7 +3,7 @@
     Created on : Jan 12, 2018, 9:05:21 PM
     Author     : lampstudio
 --%>
-
+<%@taglib prefix="s" uri="/struts-tags" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <s:i18n name = "HelloWorldAction">
+        <s:i18n name = "TextAction">
          <s:text name = "name.success"/><br>
          <s:text name = "name.xyz">Message doesn't exists</s:text><br>
          <s:text name = "name.msg.param">
