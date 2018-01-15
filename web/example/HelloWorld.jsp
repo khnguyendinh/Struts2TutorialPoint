@@ -46,6 +46,7 @@
         <s:a action="uiAction">Example 16 : UI TAG</s:a> <br><br>
         <s:a action="GroupUIAction">Example 17 : Group UI TAG</s:a> <br><br>
         <s:a action="selectUIAction">Example 18 : Select UI TAG</s:a> <br><br>
+        <s:a action="ajaxAction">Example 19 : Ajax UI TAG</s:a> <br><br>
     </body>
 </html>
 

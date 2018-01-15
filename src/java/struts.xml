@@ -4,7 +4,7 @@
 
 <struts>
     <include file="example.xml"/>
-    <constant name = "struts.devMode" value = "true" />
+    <constant name = "struts.devMode" value = "false" />
     <constant name = "struts.custom.i18n.resources" value = "ApplicationResources"/>
     <!-- Configuration for the default package. -->
     <package name="models" extends="struts-default">
@@ -105,6 +105,11 @@
                 class = "controller.FormTags.SelectUITags.SelectUIAction" 
                 method = "execute">
             <result name = "success">/example/FormTags/SelectUITag/SelectUITagPage.jsp</result>
+        </action>
+        <action name = "ajaxAction" 
+                class = "controller.AjaxTag.AjaxAction" 
+                method = "execute">
+            <result name = "success">/example/AjaxTag/AjaxPage.jsp</result>
         </action>
         
     </package>
